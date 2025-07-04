@@ -1,0 +1,212 @@
+{
+  "meetings": [
+    {
+      "id": "meeting-001",
+      "title": "Weekly Team Standup",
+      "participants": ["alice@company.com", "bob@company.com", "charlie@company.com"],
+      "start_time": "2024-01-15T09:00:00Z",
+      "end_time": "2024-01-15T09:30:00Z",
+      "timezone": "America/New_York",
+      "organizer": "alice@company.com",
+      "meeting_type": "standup",
+      "effectiveness_score": 8.5
+    },
+    {
+      "id": "meeting-002",
+      "title": "Product Planning Session",
+      "participants": ["diana@company.com", "eve@company.com", "frank@company.com", "grace@company.com"],
+      "start_time": "2024-01-15T14:00:00Z",
+      "end_time": "2024-01-15T15:30:00Z",
+      "timezone": "Asia/Tokyo",
+      "organizer": "diana@company.com",
+      "meeting_type": "planning",
+      "effectiveness_score": 7.2
+    },
+    {
+      "id": "meeting-003",
+      "title": "1:1 with Manager",
+      "participants": ["bob@company.com", "alice@company.com"],
+      "start_time": "2024-01-16T16:00:00Z",
+      "end_time": "2024-01-16T16:30:00Z",
+      "timezone": "America/Los_Angeles",
+      "organizer": "alice@company.com",
+      "meeting_type": "1on1",
+      "effectiveness_score": 9.1
+    },
+    {
+      "id": "meeting-004",
+      "title": "Design Review",
+      "participants": ["charlie@company.com", "grace@company.com", "henry@company.com"],
+      "start_time": "2024-01-17T10:00:00Z",
+      "end_time": "2024-01-17T11:00:00Z",
+      "timezone": "Europe/London",
+      "organizer": "charlie@company.com",
+      "meeting_type": "review",
+      "effectiveness_score": 6.8
+    },
+    {
+      "id": "meeting-005",
+      "title": "Brainstorming: New Features",
+      "participants": ["eve@company.com", "frank@company.com", "alice@company.com", "bob@company.com"],
+      "start_time": "2024-01-18T13:00:00Z",
+      "end_time": "2024-01-18T14:30:00Z",
+      "timezone": "Australia/Sydney",
+      "organizer": "eve@company.com",
+      "meeting_type": "brainstorm",
+      "effectiveness_score": 7.9
+    },
+    {
+      "id": "meeting-006",
+      "title": "All Hands Meeting",
+      "participants": ["alice@company.com", "bob@company.com", "charlie@company.com", "diana@company.com", "eve@company.com", "frank@company.com", "grace@company.com", "henry@company.com"],
+      "start_time": "2024-01-19T15:00:00Z",
+      "end_time": "2024-01-19T16:00:00Z",
+      "timezone": "America/Chicago",
+      "organizer": "frank@company.com",
+      "meeting_type": "all-hands",
+      "effectiveness_score": 5.4
+    },
+    {
+      "id": "meeting-007",
+      "title": "Sprint Planning",
+      "participants": ["alice@company.com", "bob@company.com", "charlie@company.com", "diana@company.com"],
+      "start_time": "2024-01-22T09:00:00Z",
+      "end_time": "2024-01-22T11:00:00Z",
+      "timezone": "Europe/Berlin",
+      "organizer": "grace@company.com",
+      "meeting_type": "planning",
+      "effectiveness_score": 8.3
+    },
+    {
+      "id": "meeting-008",
+      "title": "Client Demo Preparation",
+      "participants": ["henry@company.com", "eve@company.com", "frank@company.com"],
+      "start_time": "2024-01-23T11:30:00Z",
+      "end_time": "2024-01-23T12:30:00Z",
+      "timezone": "Asia/Singapore",
+      "organizer": "henry@company.com",
+      "meeting_type": "planning",
+      "effectiveness_score": 7.6
+    },
+    {
+      "id": "meeting-009",
+      "title": "Code Review Session",
+      "participants": ["bob@company.com", "charlie@company.com", "grace@company.com"],
+      "start_time": "2024-01-24T14:00:00Z",
+      "end_time": "2024-01-24T15:00:00Z",
+      "timezone": "America/New_York",
+      "organizer": "bob@company.com",
+      "meeting_type": "review",
+      "effectiveness_score": 8.7
+    },
+    {
+      "id": "meeting-010",
+      "title": "Marketing Strategy Discussion",
+      "participants": ["diana@company.com", "alice@company.com", "frank@company.com"],
+      "start_time": "2024-01-25T16:00:00Z",
+      "end_time": "2024-01-25T17:30:00Z",
+      "timezone": "Asia/Tokyo",
+      "organizer": "diana@company.com",
+      "meeting_type": "planning",
+      "effectiveness_score": 6.9
+    }
+  ],
+  "users": [
+    {
+      "id": "alice@company.com",
+      "name": "Alice Johnson",
+      "timezone": "America/New_York",
+      "preferred_hours": [9, 17],
+      "max_daily_meetings": 8,
+      "preferred_duration": 60,
+      "work_days": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "bob@company.com",
+      "name": "Bob Smith",
+      "timezone": "America/Los_Angeles",
+      "preferred_hours": [8, 16],
+      "max_daily_meetings": 6,
+      "preferred_duration": 45,
+      "work_days": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "charlie@company.com",
+      "name": "Charlie Brown",
+      "timezone": "Europe/London",
+      "preferred_hours": [9, 18],
+      "max_daily_meetings": 7,
+      "preferred_duration": 60,
+      "work_days": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "diana@company.com",
+      "name": "Diana Prince",
+      "timezone": "Asia/Tokyo",
+      "preferred_hours": [9, 17],
+      "max_daily_meetings": 9,
+      "preferred_duration": 90,
+      "work_days": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "eve@company.com",
+      "name": "Eve Wilson",
+      "timezone": "Australia/Sydney",
+      "preferred_hours": [8, 16],
+      "max_daily_meetings": 8,
+      "preferred_duration": 30,
+      "work_days": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "frank@company.com",
+      "name": "Frank Miller",
+      "timezone": "America/Chicago",
+      "preferred_hours": [9, 17],
+      "max_daily_meetings": 10,
+      "preferred_duration": 60,
+      "work_days": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "grace@company.com",
+      "name": "Grace Lee",
+      "timezone": "Europe/Berlin",
+      "preferred_hours": [8, 17],
+      "max_daily_meetings": 7,
+      "preferred_duration": 45,
+      "work_days": [0, 1, 2, 3, 4]
+    },
+    {
+      "id": "henry@company.com",
+      "name": "Henry Chen",
+      "timezone": "Asia/Singapore",
+      "preferred_hours": [9, 18],
+      "max_daily_meetings": 8,
+      "preferred_duration": 60,
+      "work_days": [0, 1, 2, 3, 4]
+    }
+  ],
+  "meeting_insights": {
+    "total_meetings": 65,
+    "average_duration": 67,
+    "most_active_user": "alice@company.com",
+    "peak_meeting_hours": [9, 10, 14, 15],
+    "common_meeting_types": {
+      "standup": 15,
+      "planning": 12,
+      "review": 10,
+      "brainstorm": 8,
+      "1on1": 12,
+      "all-hands": 8
+    },
+    "timezone_distribution": {
+      "America/New_York": 12,
+      "America/Los_Angeles": 8,
+      "Europe/London": 9,
+      "Asia/Tokyo": 11,
+      "Australia/Sydney": 7,
+      "America/Chicago": 9,
+      "Europe/Berlin": 5,
+      "Asia/Singapore": 4
+    }
+  }
+}
